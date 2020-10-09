@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42.5dp"
+        android:id="@+id/editText1"
+        android:inputType="none|number"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="Base Volume (ml)" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText1"
+        android:id="@+id/editText2"
+        android:inputType="none|number"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="Base Concentration (mg/ml)" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText2"
+        android:id="@+id/editText3"
+        android:inputType="none|number"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="Final Concentration (mg/ml)" />
+    <TextView
+      android:text="Final Volume:"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:foregroundGravity="center"
+      android:gravity="center"
+      android:layout_marginTop="30.0dp"
+      android:layout_below="@id/editText3"
+      android:id="@+id/textView1" />
+    <Button
+      android:text="Calculate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/textView1"
+      android:id="@+id/button1"
+      android:layout_marginBottom="0.0dp"
+      android:layout_marginRight="0.0dp" />
+    <Button
+      android:text="Switch To Advanced Mode"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/button1"
+      android:id="@+id/button2"
+      android:layout_marginBottom="0.0dp"
+      android:layout_marginRight="0.0dp" />
+</RelativeLayout>

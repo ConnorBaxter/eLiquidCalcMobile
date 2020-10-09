@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qLiquidCalcMobile", "qLiquidCalcMobile\qLiquidCalcMobile.csproj", "{197FF733-4D63-4755-8ECD-8850390309CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{197FF733-4D63-4755-8ECD-8850390309CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197FF733-4D63-4755-8ECD-8850390309CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197FF733-4D63-4755-8ECD-8850390309CC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{197FF733-4D63-4755-8ECD-8850390309CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197FF733-4D63-4755-8ECD-8850390309CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197FF733-4D63-4755-8ECD-8850390309CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {537A18A3-39BC-4B95-B931-4FDCC2588069}
+	EndGlobalSection
+EndGlobal

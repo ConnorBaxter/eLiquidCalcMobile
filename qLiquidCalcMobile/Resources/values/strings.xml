@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">e-Liquid Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="baseVol">Base Volume (ml)</string>
+    <string name="baseConc">Base Concentration (mg/ml)</string>
+    <string name="finalConc">Final Concentration (mg/ml)</string>
+    <string name="finalVol">Final Volume (ml)</string>
+</resources>
